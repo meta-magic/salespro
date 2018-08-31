@@ -5,6 +5,7 @@ import {CommonModule} from '@angular/common';
 import {AmexioWidgetModule, AmexioChartsModule, AmexioDashBoardModule, AmexioMapModule} from 'amexio-ng-extensions';
 import { HttpClientModule } from '@angular/common/http';
 import { CardComponent } from './components/card/card.component';
+import { UioneComponent } from './components/uione/uione.component';
 import { ROUTES } from './core.route';
 
 @NgModule({
@@ -20,6 +21,7 @@ import { ROUTES } from './core.route';
 	  exports: [RouterModule],
 	  declarations: [
 	  CardComponent,
+	  UioneComponent,
 	  ],
 	  providers: [
 	  ]
