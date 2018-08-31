@@ -8,7 +8,7 @@ const routes: Routes = [
   { path: '', component:HomeComponent,
     children: [
           	{
-     	path: 'bc/domain', loadChildren: './../bc/domain/domain.module#DomainModule'
+     	path: 'proapp/core', loadChildren: './../proapp/core/core.module#CoreModule'
      	},	
 	    ]
   }

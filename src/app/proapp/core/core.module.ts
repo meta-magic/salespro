@@ -4,12 +4,8 @@ import {FormsModule} from '@angular/forms';
 import {CommonModule} from '@angular/common';
 import {AmexioWidgetModule, AmexioChartsModule, AmexioDashBoardModule, AmexioMapModule} from 'amexio-ng-extensions';
 import { HttpClientModule } from '@angular/common/http';
-import { LoginuiComponent } from './components/loginui/loginui.component';
-import { Template1Component } from './components/template1/template1.component';
-import { Template2Component } from './components/template2/template2.component';
-import { Template3Component } from './components/template3/template3.component';
-import { Template5Component } from './components/template5/template5.component';
-import { ROUTES } from './domain.route';
+import { CardComponent } from './components/card/card.component';
+import { ROUTES } from './core.route';
 
 @NgModule({
 	  imports: [
@@ -23,14 +19,10 @@ import { ROUTES } from './domain.route';
 	  ],
 	  exports: [RouterModule],
 	  declarations: [
-	  LoginuiComponent,
-	  Template1Component,
-	  Template2Component,
-	  Template3Component,
-	  Template5Component,
+	  CardComponent,
 	  ],
 	  providers: [
 	  ]
 })
-export class DomainModule {
+export class CoreModule {
 }

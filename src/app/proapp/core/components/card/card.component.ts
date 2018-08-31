@@ -5,22 +5,18 @@
  */
 import {Component, OnInit} from '@angular/core';
 import { Router } from '@angular/router';
-import { Template5 } from './../../models/template5.model'
 @Component(
 {
-	selector: 'template5',
-	templateUrl: 'template5.component.html'
+	selector: 'card',
+	templateUrl: 'card.component.html'
 })
-export class Template5Component implements OnInit
+export class CardComponent implements OnInit
 {
 	
-	template5: Template5;
 	
-	successMsgData:any[]=[];
 	
 	constructor( private router: Router)
 	{
-		this.template5 = new Template5();
 		
 	}
 	ngOnInit()
